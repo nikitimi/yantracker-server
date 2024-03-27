@@ -4,7 +4,9 @@
   "description": "This is for the daily verse of YanTracker Application",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index.js"
+    "build": "npx tsc",
+    "start": "node ./dist/src/index.js",
+    "dev": "nodemon ./src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,14 @@
   },
   "homepage": "https://github.com/nikitimi/yantracker-server#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.3"
   }
 }

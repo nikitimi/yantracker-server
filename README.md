@@ -1,0 +1,2 @@
+- Improve tracking of record by Separating by Book Name
+- Integrate Bible API
