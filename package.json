@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "This is for the daily verse of YanTracker Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitimi/yantracker-server.git"
+  },
+  "keywords": [
+    "yantracker",
+    "bible",
+    "server"
+  ],
+  "author": "nikitimi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikitimi/yantracker-server/issues"
+  },
+  "homepage": "https://github.com/nikitimi/yantracker-server#readme"
+}
